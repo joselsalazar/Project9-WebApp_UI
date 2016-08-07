@@ -96,6 +96,7 @@ NAVIGATION
 .main-nav {
 	background: #595986;
 	position: fixed;
+	z-index: 5;
 	width: 100%;
 	height: 55px;
 	float: left;
@@ -363,6 +364,15 @@ SOCIAL WIDGETS
 	fill: #fff;
 }
 
+.social-div-mini {
+	width: 18px;
+	border-radius: 100%;
+	background: #6060cd;
+	position: relative;
+	left: 5px;
+	fill: #fff;
+}
+
 /*=====================
 NEW MEMBERS WIDGET
 ======================*/
@@ -473,6 +483,7 @@ MEMBERS ACTIVITY
 
 .activity {
 	margin-left: 5px;
+	width: 60%;
 }
 
 .activity-icon {
@@ -1065,6 +1076,10 @@ RESPONSIVE LAYOUT
 
 	.arrow {
 		font-size: 30px;
+	}
+
+	.activity {
+		width: 75%
 	}
 
 }
